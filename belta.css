@@ -1,6 +1,11 @@
-body {
-background-image: url(https://i.loli.net/2020/06/22/2uDIaGJFE14XmlM.jpg);
-background-repeat: no-repeat;
-background-attachment:fixed;
-background-position:center;
+:root {
+    --const-var-name: const-var-value;
 }
+body {
+    background-image: url(https://i.loli.net/2020/06/22/2uDIaGJFE14XmlM.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:var(--const-var-name);
+}
+   
